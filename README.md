@@ -18,3 +18,25 @@
 | | wrong length | token short | `test_wrong_length_token_is_refused` |
 
 Base choice coverage needs 1 + 2 + 3 + 1 + 2 = 9 tests, and all of them are in `test_create_rating.py`.
+
+API tests for the QuickPizza demo site, written with pytest and requests.
+
+## How to install
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## How to run
+
+```
+pytest -v
+```
+
+To save an HTML report of a full run:
+
+```
+pytest -v --html=report.html --self-contained-html
+```
