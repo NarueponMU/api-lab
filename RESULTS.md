@@ -28,7 +28,8 @@
 - Severity: Medium. The server crashes on a valid request that any customer can send, and the app that calls the API gets no message to show or act on. No data is lost, and the input is uncommon.
 
 ## Part A
-- Step A4, status codes when the other user reads, changes and deletes:
+- Step A4, status codes when the other user reads, changes and deletes: read 404 {"error":"not found"}, change 400 {"error":"rating ID ... not found"}, delete 400 {"error":"rating ID ... not found"}
+
 ## Part B
 1.
 2.
