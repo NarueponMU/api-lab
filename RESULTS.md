@@ -1,8 +1,8 @@
 # API lab results
 ## Part 0
-- Step 0.1, the number of pizza names:
-- Step 0.3, status code of the request without a token:
-- Step 0.4, the name of your pizza:
+- Step 0.1, the number of pizza names: 18
+- Step 0.3, status code of the request without a token: 401 (body: {"error":"authentication failed"})
+- Step 0.4, the name of your pizza: The Fresh Frutti di Mare
 - Step 0.12, results of the three runs without a session (optional):
 - Step 0.16, blocks of "how many of the three tools are excluded":
 ## Defect report
